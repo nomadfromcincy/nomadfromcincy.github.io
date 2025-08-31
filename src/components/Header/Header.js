@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaLinkedin, FaDownload, FaBars, FaTimes } from 'react-icons/fa';
 import placeholder from '../../assets/temp.png';
 import example_cv from '../../assets/example_cv.pdf';
+import logo from '../../assets/logo.png'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,9 +33,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src={placeholder}
+              src={logo}
               alt="Logo"
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </div>
 
@@ -65,7 +66,7 @@ const Header = () => {
             </a>
 
             {/* CV Download Button */}
-            <a
+            {/* <a
               href={example_cv}
               target="_blank"
               rel="noopener noreferrer"
@@ -73,7 +74,7 @@ const Header = () => {
             >
               <FaDownload className="w-4 h-4" />
               <span className="hidden sm:inline">CV</span>
-            </a>
+            </a> */}
 
             {/* Mobile Menu Button */}
             <button

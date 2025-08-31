@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
 
         {/* Right side form */}
-        <div className="bg-light p-6 rounded-xl shadow-md space-y-6">
+        {/* <div className="bg-light p-6 rounded-xl shadow-md space-y-6">
           <div>
             <h3 className="text-2xl font-semibold text-primary mb-2">How May I Help You?</h3>
             <p className="text-sm text-gray-600">
@@ -67,7 +67,7 @@ const Contact = () => {
               Send Message
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );

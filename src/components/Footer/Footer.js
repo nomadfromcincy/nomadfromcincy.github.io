@@ -1,5 +1,6 @@
 import React from 'react';
 import placeholder from '../../assets/temp.png'
+import logo from '../../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
           © 2025 Damon Levy · Thyone Consulting
         </p>
         <img
-          src={placeholder}
+          src={logo}
           alt="Logo"
-          className="w-12 h-12 mt-4 sm:mt-0"
+          className="h-14 w-auto mt-4 sm:mt-0"
         />
       </div>
     </footer>

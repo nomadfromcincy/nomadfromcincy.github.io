@@ -24,7 +24,7 @@ const PreviousClients = () => {
 
         let animationId;
         let translateX = 0;
-        const scrollSpeed = 0.1;
+        const scrollSpeed = 0.05;
         
         const animate = () => {
             translateX -= scrollSpeed;

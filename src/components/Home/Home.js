@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { getHomeContent } from '../../services/homeService';
 import { FaCommentDots } from 'react-icons/fa';
 import placeholder from '../../assets/temp.png';
+import headshot from '../../assets/headshot.png';
+import logo from '../../assets/logo.png'
 
 const Home = () => {
   const [content, setContent] = useState(null);
@@ -40,7 +42,7 @@ const Home = () => {
         <div className="md:w-1/2 mt-10 md:mt-0 relative flex justify-center items-center">
           <div className="w-[100%] h-[100%] max-h-[400px] md:max-h-[500px] rounded-2xl overflow-hidden shadow-md">
             <img
-              src={placeholder}
+              src={headshot}
               alt="Damon Portrait"
               className="w-full h-full object-cover"
             />
@@ -48,9 +50,9 @@ const Home = () => {
 
           {/* Logo Overlapping */}
           <img
-            src={placeholder}
+            src={logo}
             alt="Small Logo"
-            className="absolute bottom-2 right-2 w-14 h-14 z-20 transform translate-x-1/2 translate-y-1/2"
+            className="absolute bottom-2 right-2 w-24 transform translate-x-1/3 translate-y-1/3"
           />
         </div>
       </div>
