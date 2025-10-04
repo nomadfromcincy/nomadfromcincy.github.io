@@ -42,16 +42,16 @@ const Home = () => {
         <div className="md:w-1/2 mt-10 md:mt-0 relative flex justify-center items-center">
           <div className="w-[100%] h-[100%] max-h-[400px] md:max-h-[500px] rounded-2xl overflow-hidden shadow-md">
             <img
-              src={headshot}
-              alt="Damon Portrait"
+              src={logo}
+              alt="Thyone Consulting Logo"
               className="w-full h-full object-cover"
             />
           </div>
 
           {/* Logo Overlapping */}
           <img
-            src={logo}
-            alt="Small Logo"
+            src={headshot}
+            alt="Damon Portrait"
             className="absolute bottom-2 right-2 w-24 transform translate-x-1/3 translate-y-1/3"
           />
         </div>
