@@ -40,11 +40,11 @@ const Home = () => {
 
         {/* Right Image */}
         <div className="md:w-1/2 mt-10 md:mt-0 relative flex justify-center items-center">
-          <div className="w-[100%] h-[100%] max-h-[400px] md:max-h-[500px] rounded-2xl overflow-hidden shadow-md">
+          <div className="w-full max-h-[400px] md:max-h-[500px] rounded-2xl overflow-hidden flex items-center justify-center">
             <img
               src={logo}
               alt="Thyone Consulting Logo"
-              className="w-full h-full object-cover"
+              className="max-h-full w-3/5 object-contain mx-auto"
             />
           </div>
 
@@ -52,7 +52,7 @@ const Home = () => {
           <img
             src={headshot}
             alt="Damon Portrait"
-            className="absolute bottom-2 right-2 w-24 transform translate-x-1/3 translate-y-1/3"
+            className="absolute bottom-2 right-2 w-24 transform translate-x-1/3 translate-y-1/3 rounded-full border-4 border-blue-800 shadow-lg object-cover"
           />
         </div>
       </div>
