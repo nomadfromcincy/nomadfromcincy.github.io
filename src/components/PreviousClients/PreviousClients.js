@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import caveman from '../../assets/caveman.jpg';
 import hoppyhour from '../../assets/hoppyhour.png';
 import obrothers from '../../assets/obrothers.png';

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getHomeContent } from '../../services/homeService';
 import { FaCommentDots } from 'react-icons/fa';
-import placeholder from '../../assets/temp.png';
 import headshot from '../../assets/headshot.png';
 import logo from '../../assets/logo.png'
 

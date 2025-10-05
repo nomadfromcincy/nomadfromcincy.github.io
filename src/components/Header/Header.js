@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { FaLinkedin, FaDownload, FaBars, FaTimes } from 'react-icons/fa';
-import placeholder from '../../assets/temp.png';
-import example_cv from '../../assets/example_cv.pdf';
+import { useState } from 'react';
+import { FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../../assets/logo.png'
 
 const Header = () => {
