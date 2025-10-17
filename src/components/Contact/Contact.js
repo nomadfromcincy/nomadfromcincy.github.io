@@ -1,6 +1,20 @@
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { useState, useEffect } from 'react';
+import { getContactContent } from '../../services/contactService';
 
 const Contact = () => {
+  const [content, setContent] = useState(null);
+  
+  useEffect(() => {
+    const loadContent = async () => {
+      const data = await getContactContent();
+      if (data.length > 0) {
+        setContent(data);
+      }
+    };
+    loadContent();
+  }, []);
+
   return (
     <section id="contact" className="w-full bg-white py-20 px-6 text-black">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
@@ -15,12 +29,16 @@ const Contact = () => {
 
           <div className="flex items-center space-x-4 mt-6">
             <FaEnvelope className="text-primary" />
-            <span className="text-base">example@placeholder.temp</span>
+            <span className="text-base">
+              {content ? content.find((item) => item.title_fld === 'Email')?.data : 'Loading...'}
+            </span>
           </div>
 
           <div className="flex items-center space-x-4">
             <FaPhone className="text-primary" />
-            <span className="text-base">+1 (123) 456-7890</span>
+            <span className="text-base">
+              {content ? content.find((item) => item.title_fld === 'Phone')?.data : 'Loading...'}
+            </span>
           </div>
         </div>
 
