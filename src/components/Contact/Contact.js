@@ -30,14 +30,14 @@ const Contact = () => {
           <div className="flex items-center space-x-4 mt-6">
             <FaEnvelope className="text-primary" />
             <span className="text-base">
-              {content ? content.find((item) => item.title_fld === 'Email')?.text : 'Loading...'}
+              {content ? content.find((item) => item.title === 'Email')?.text : 'Loading...'}
             </span>
           </div>
 
           <div className="flex items-center space-x-4">
             <FaPhone className="text-primary" />
             <span className="text-base">
-              {content ? content.find((item) => item.title_fld === 'Phone')?.text : 'Loading...'}
+              {content ? content.find((item) => item.title === 'Phone')?.text : 'Loading...'}
             </span>
           </div>
         </div>
