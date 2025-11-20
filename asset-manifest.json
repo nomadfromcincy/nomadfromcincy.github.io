@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4bab366e.css",
-    "main.js": "/static/js/main.b3778f5d.js",
+    "main.js": "/static/js/main.6e06a48f.js",
     "static/js/453.c20769ed.chunk.js": "/static/js/453.c20769ed.chunk.js",
     "static/media/caveman.jpg": "/static/media/caveman.43ed39f4918903819047.jpg",
     "static/media/headshot.png": "/static/media/headshot.75995f82067801b4d879.png",
@@ -11,11 +11,11 @@
     "static/media/pkn.avif": "/static/media/pkn.383b58043aa5c0ceb2e2.avif",
     "index.html": "/index.html",
     "main.4bab366e.css.map": "/static/css/main.4bab366e.css.map",
-    "main.b3778f5d.js.map": "/static/js/main.b3778f5d.js.map",
+    "main.6e06a48f.js.map": "/static/js/main.6e06a48f.js.map",
     "453.c20769ed.chunk.js.map": "/static/js/453.c20769ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bab366e.css",
-    "static/js/main.b3778f5d.js"
+    "static/js/main.6e06a48f.js"
   ]
 }
