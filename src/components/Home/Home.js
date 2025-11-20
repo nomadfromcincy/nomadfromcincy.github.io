@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <section id="home" className="min-h-screen bg-light flex items-center justify-center px-4 py-16">
-      <div className="w-4/5 max-w-7xl bg-accent rounded-3xl shadow-xl p-6 md:p-12 flex flex-col md:flex-row items-center justify-between relative overflow-hidden">
+      <div className="w-4/5 max-w-7xl rounded-3xl shadow-xl p-6 md:p-12 flex flex-col md:flex-row items-center justify-between relative overflow-hidden border-4 border-blue-800 bg-white">
         {/* Left Text */}
         <div className="md:w-1/2 text-center md:text-left space-y-6 z-10 justify-start">
           <h1 className="text-4xl md:text-5xl font-bold text-primary">
